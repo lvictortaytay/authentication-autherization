@@ -1,0 +1,26 @@
+
+a{
+    margin-top: -10px;
+    height: 40px;
+    width: 60px;
+    box-sizing: border-box;
+    font-weight:200;
+}
+a:hover{
+    transition: .1s;
+    font-weight:300;
+}
+
+.error{
+    color: white;
+    background-color: rgb(255, 0, 0);
+    opacity: .8;
+    transition: 1s;
+}
+.success{
+    color: rgb(0, 255, 13);
+    border: 2px solid rgb(60, 255, 0);
+    transition: 1s;
+}
+
+
